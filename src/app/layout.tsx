@@ -30,7 +30,7 @@ export default function RootLayout({
       >
        
         {children}
-         <div className="fixed z-90 right-16 bottom-14">
+         <div className="fixed z-90 right-5 md:right-16 bottom-14">
           <Popup/>
         </div>
       </body>

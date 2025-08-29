@@ -9,8 +9,9 @@ export default function Home() {
           Hi, I’m <span className="text-blue-500">Abdelrhman</span>
         </h1>
         <p className="mt-4 text-lg text-slate-400 sm:text-xl">
-          Front‑End Engineer who crafts snappy, accessible web experiences with
-          Motion UI&nbsp;✨
+          {/* Front‑End Engineer who crafts snappy, accessible web experiences with
+          Motion UI&nbsp;✨ */}
+          Passionate Next.js developer building responsive, optimized apps that truly perform.
         </p>
         <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <Link

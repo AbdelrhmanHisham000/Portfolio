@@ -1,19 +1,17 @@
 "use client";
 
-import { useState } from "react";
-import { motion, AnimatePresence, Variants } from "framer-motion";
+import { AnimatePresence, motion, Variants } from "framer-motion";
 import {
-  Github,
-  Mail,
   Briefcase,
-  User,
-  FileText,
-  Menu,
-  X,
   Cannabis,
+  FileText,
+  Github,
   Home,
+  User,
+  X
 } from "lucide-react";
 import Link from "next/link";
+import { useState } from "react";
 
 const menuItems = [
   { icon: <Home />, label: "HomePage", href: "/" },
@@ -104,3 +102,5 @@ export default function Popup() {
     </div>
   );
 }
+
+

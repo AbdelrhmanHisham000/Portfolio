@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Popup from "../_components/Popup";
+import MobilePopup from "../_components/MobilePopup";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,10 +31,16 @@ export default function RootLayout({
       >
        
         {children}
-         <div className="fixed z-90 right-16 bottom-14">
-          <Popup/>
+       <div className="fixed z-90 right-15 bottom-14 hidden md:block">
+          <Popup />
+        </div>
+
+        {/* Mobile Popup */}
+        <div className="fixed z-90 right-6 bottom-14 block md:hidden">
+          <MobilePopup />
         </div>
       </body>
     </html>
   );
 }
+

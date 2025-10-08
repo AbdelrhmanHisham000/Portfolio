@@ -43,7 +43,7 @@ export default function About() {
           Contact Information
         </h2>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
+        <div className="grid sm:grid-cols-2 place-content-center lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
           {/* Email */}
           <div className="bg-[#1e1d1d] p-6 rounded-xl shadow-md text-center hover:scale-105 transition">
             <FaEnvelope className="text-yellow-400 text-3xl mx-auto mb-4" />

@@ -1,5 +1,4 @@
 import { Cinzel_Decorative } from "next/font/google";
-import About from "./About";
 
 const cinzel = Cinzel_Decorative({
   subsets: ["latin"],
@@ -15,7 +14,7 @@ export default function Homepage() {
           className={`uppercase text-3xl md:text-5xl font-bold mb-4 ${cinzel.className}`}
         >
           <p>my name is</p>
-          <p className="text-5xl md:text-6xl text-yellow-400">Abdelrhman Hisham</p>
+          <p className="text-[2.6rem] md:text-6xl text-yellow-400">Abdelrhman Hisham</p>
         </div>
         <p className="capitalize text-lg text-gray-300 mb-6">
           front end developer based in Egypt

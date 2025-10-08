@@ -15,7 +15,7 @@ export default function ProjectsCard({
         <p className="text-gray-300 text-sm leading-relaxed">{description}</p>
 
         {/* Buttons */}
-        <div className="flex flex-wrap gap-4 mt-4">
+        <div className="flex text-center gap-4 mt-4">
           {viewProject && (
             <a
               href={viewProject}

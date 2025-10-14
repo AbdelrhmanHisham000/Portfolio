@@ -11,6 +11,10 @@ const bitcount = Bitcount_Prop_Double({
   weight: ["400", "700"],
 });
 
+export const metadata = {
+  title: 'About | Abdelrhman Hisham',
+  description: 'Learn more about Abdelrhman Hisham – Web Developer & Designer.',
+};
 export default function About() {
   return (
     <div className="container mx-auto py-8  space-y-16">
